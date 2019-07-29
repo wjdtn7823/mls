@@ -142,7 +142,7 @@ class clientThread(threading.Thread):
 
 class licenseClient(threading.Thread):
 	def __init__(self) :
-		host = '10.253.4.17'
+		host = 'Server IP'
 		port = 4867 
 		self.addr = (host,port)
 		self.client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
